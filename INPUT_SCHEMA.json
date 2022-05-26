@@ -1,0 +1,14 @@
+{
+  "title": "Input schema for the example_python actor.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+      "texts":{
+          "title": "Texts to detect",
+          "type": "array",
+          "description": "List of sentences to detect language of",
+          "editor": "stringList"
+      }
+  },
+  "required": ["texts"]
+}
